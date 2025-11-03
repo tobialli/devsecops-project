@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Pull Docker Image
-        run: docker pull doyin1995/devsecops-project:sunday2
+        run: docker pull doyin1995/devops_project:sunday2
 
       - name: Install Trivy
         run: |
@@ -44,7 +44,7 @@ jobs:
       with:
         scan-type: 'image'
         scanners: 'vuln'
-        image-ref: doyin1995/devsecops-projecet:sunday2
+        image-ref: doyin1995/devcops_projecet:sunday2
         scan-ref: '.'
         hide-progress: false
         format: 'table'
