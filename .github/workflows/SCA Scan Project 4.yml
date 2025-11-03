@@ -44,7 +44,7 @@ jobs:
       with:
         scan-type: 'image'
         scanners: 'vuln'
-        image-ref: doyin1995/devcops_projecet:sunday2
+        image-ref: doyin1995/devops_project:sunday2
         scan-ref: '.'
         hide-progress: false
         format: 'table'
